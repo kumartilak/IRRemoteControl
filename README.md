@@ -1,6 +1,6 @@
 IR Remote control iOS and WatchKit app
 
-- App allows operating TV from iOS and WatchOS app. 
+- App allows operating TV from iOS and WatchOS app(individual). 
 - Source includes iOS and WatchKit app build using Swift programming language. 
 - iOS app and WatchKit app can work individually.
 - Both app makes use of CoreBluetooth framework to connect with Arduino(HM 10 module).
