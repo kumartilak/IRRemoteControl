@@ -1,0 +1,664 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1D0E4423DF316D0076F07D /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D0E4323DF316D0076F07D /* MainViewModel.swift */; };
+		CD1D0E4623DF37640076F07D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D0E4523DF37640076F07D /* Helper.swift */; };
+		CD1D0E4D23DF4C7C0076F07D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD1D0E4B23DF4C7C0076F07D /* Interface.storyboard */; };
+		CD1D0E4F23DF4C7D0076F07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1D0E4E23DF4C7D0076F07D /* Assets.xcassets */; };
+		CD1D0E5623DF4C7E0076F07D /* IRWatchPOC Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD1D0E5523DF4C7E0076F07D /* IRWatchPOC Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD1D0E5B23DF4C7E0076F07D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D0E5A23DF4C7E0076F07D /* InterfaceController.swift */; };
+		CD1D0E5D23DF4C7E0076F07D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D0E5C23DF4C7E0076F07D /* ExtensionDelegate.swift */; };
+		CD1D0E5F23DF4C7E0076F07D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD1D0E5E23DF4C7E0076F07D /* Assets.xcassets */; };
+		CD1D0E6323DF4C7E0076F07D /* IRWatchPOC.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = CD1D0E4923DF4C7C0076F07D /* IRWatchPOC.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD22BBDB23E1F035004A3590 /* RemoteKeysDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD22BBDA23E1F035004A3590 /* RemoteKeysDataSource.swift */; };
+		CD22BBDD23E1F2A0004A3590 /* RemoteKeys.json in Resources */ = {isa = PBXBuildFile; fileRef = CD22BBDC23E1F2A0004A3590 /* RemoteKeys.json */; };
+		CD57349223E52E83006162D9 /* RemoteKeysDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD22BBDA23E1F035004A3590 /* RemoteKeysDataSource.swift */; };
+		CD57349323E52E92006162D9 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68BBC023DB45FD0083C2AB /* BLEManager.swift */; };
+		CD57349423E52EA0006162D9 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1D0E4523DF37640076F07D /* Helper.swift */; };
+		CD68BBAD23DB45B50083C2AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68BBAC23DB45B50083C2AB /* AppDelegate.swift */; };
+		CD68BBAF23DB45B50083C2AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68BBAE23DB45B50083C2AB /* SceneDelegate.swift */; };
+		CD68BBB123DB45B50083C2AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68BBB023DB45B50083C2AB /* ViewController.swift */; };
+		CD68BBB423DB45B50083C2AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD68BBB223DB45B50083C2AB /* Main.storyboard */; };
+		CD68BBB623DB45B60083C2AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD68BBB523DB45B60083C2AB /* Assets.xcassets */; };
+		CD68BBB923DB45B60083C2AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD68BBB723DB45B60083C2AB /* LaunchScreen.storyboard */; };
+		CD68BBC123DB45FD0083C2AB /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD68BBC023DB45FD0083C2AB /* BLEManager.swift */; };
+		CD6BB79D23E33F4C00920137 /* RemoteKeys.json in Resources */ = {isa = PBXBuildFile; fileRef = CD22BBDC23E1F2A0004A3590 /* RemoteKeys.json */; };
+		CD6ECD8623E11B240076879D /* KeysRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6ECD8523E11B240076879D /* KeysRowController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1D0E5723DF4C7E0076F07D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD68BBA123DB45B50083C2AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1D0E5423DF4C7E0076F07D;
+			remoteInfo = "IRWatchPOC Extension";
+		};
+		CD1D0E6123DF4C7E0076F07D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD68BBA123DB45B50083C2AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1D0E4823DF4C7C0076F07D;
+			remoteInfo = IRWatchPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD1D0E6723DF4C7E0076F07D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD1D0E5623DF4C7E0076F07D /* IRWatchPOC Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1D0E6B23DF4C7E0076F07D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				CD1D0E6323DF4C7E0076F07D /* IRWatchPOC.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD1D0E4323DF316D0076F07D /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		CD1D0E4523DF37640076F07D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		CD1D0E4923DF4C7C0076F07D /* IRWatchPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRWatchPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1D0E4C23DF4C7C0076F07D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		CD1D0E4E23DF4C7D0076F07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1D0E5023DF4C7D0076F07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD1D0E5523DF4C7E0076F07D /* IRWatchPOC Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "IRWatchPOC Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1D0E5A23DF4C7E0076F07D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		CD1D0E5C23DF4C7E0076F07D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		CD1D0E5E23DF4C7E0076F07D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD1D0E6023DF4C7E0076F07D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD22BBDA23E1F035004A3590 /* RemoteKeysDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteKeysDataSource.swift; sourceTree = "<group>"; };
+		CD22BBDC23E1F2A0004A3590 /* RemoteKeys.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = RemoteKeys.json; sourceTree = "<group>"; };
+		CD68BBA923DB45B50083C2AB /* IRRemotePOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IRRemotePOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD68BBAC23DB45B50083C2AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD68BBAE23DB45B50083C2AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CD68BBB023DB45B50083C2AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD68BBB323DB45B50083C2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD68BBB523DB45B60083C2AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD68BBB823DB45B60083C2AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD68BBBA23DB45B60083C2AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD68BBC023DB45FD0083C2AB /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		CD6ECD8523E11B240076879D /* KeysRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysRowController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1D0E5223DF4C7E0076F07D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD68BBA623DB45B50083C2AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1D0E4A23DF4C7C0076F07D /* IRWatchPOC */ = {
+			isa = PBXGroup;
+			children = (
+				CD1D0E4B23DF4C7C0076F07D /* Interface.storyboard */,
+				CD1D0E4E23DF4C7D0076F07D /* Assets.xcassets */,
+				CD1D0E5023DF4C7D0076F07D /* Info.plist */,
+			);
+			path = IRWatchPOC;
+			sourceTree = "<group>";
+		};
+		CD1D0E5923DF4C7E0076F07D /* IRWatchPOC Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CD1D0E5A23DF4C7E0076F07D /* InterfaceController.swift */,
+				CD1D0E5C23DF4C7E0076F07D /* ExtensionDelegate.swift */,
+				CD1D0E5E23DF4C7E0076F07D /* Assets.xcassets */,
+				CD1D0E6023DF4C7E0076F07D /* Info.plist */,
+				CD6ECD8523E11B240076879D /* KeysRowController.swift */,
+			);
+			path = "IRWatchPOC Extension";
+			sourceTree = "<group>";
+		};
+		CD57349523E52EB1006162D9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CD22BBDC23E1F2A0004A3590 /* RemoteKeys.json */,
+				CD22BBDA23E1F035004A3590 /* RemoteKeysDataSource.swift */,
+				CD68BBC023DB45FD0083C2AB /* BLEManager.swift */,
+				CD1D0E4523DF37640076F07D /* Helper.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		CD68BBA023DB45B50083C2AB = {
+			isa = PBXGroup;
+			children = (
+				CD68BBAB23DB45B50083C2AB /* IRRemotePOC */,
+				CD1D0E4A23DF4C7C0076F07D /* IRWatchPOC */,
+				CD1D0E5923DF4C7E0076F07D /* IRWatchPOC Extension */,
+				CD68BBAA23DB45B50083C2AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD68BBAA23DB45B50083C2AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD68BBA923DB45B50083C2AB /* IRRemotePOC.app */,
+				CD1D0E4923DF4C7C0076F07D /* IRWatchPOC.app */,
+				CD1D0E5523DF4C7E0076F07D /* IRWatchPOC Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD68BBAB23DB45B50083C2AB /* IRRemotePOC */ = {
+			isa = PBXGroup;
+			children = (
+				CD57349523E52EB1006162D9 /* Shared */,
+				CD68BBAC23DB45B50083C2AB /* AppDelegate.swift */,
+				CD68BBAE23DB45B50083C2AB /* SceneDelegate.swift */,
+				CD68BBB023DB45B50083C2AB /* ViewController.swift */,
+				CD1D0E4323DF316D0076F07D /* MainViewModel.swift */,
+				CD68BBB223DB45B50083C2AB /* Main.storyboard */,
+				CD68BBB523DB45B60083C2AB /* Assets.xcassets */,
+				CD68BBB723DB45B60083C2AB /* LaunchScreen.storyboard */,
+				CD68BBBA23DB45B60083C2AB /* Info.plist */,
+			);
+			path = IRRemotePOC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1D0E4823DF4C7C0076F07D /* IRWatchPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1D0E6823DF4C7E0076F07D /* Build configuration list for PBXNativeTarget "IRWatchPOC" */;
+			buildPhases = (
+				CD1D0E4723DF4C7C0076F07D /* Resources */,
+				CD1D0E6723DF4C7E0076F07D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1D0E5823DF4C7E0076F07D /* PBXTargetDependency */,
+			);
+			name = IRWatchPOC;
+			productName = IRWatchPOC;
+			productReference = CD1D0E4923DF4C7C0076F07D /* IRWatchPOC.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		CD1D0E5423DF4C7E0076F07D /* IRWatchPOC Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1D0E6423DF4C7E0076F07D /* Build configuration list for PBXNativeTarget "IRWatchPOC Extension" */;
+			buildPhases = (
+				CD1D0E5123DF4C7E0076F07D /* Sources */,
+				CD1D0E5223DF4C7E0076F07D /* Frameworks */,
+				CD1D0E5323DF4C7E0076F07D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IRWatchPOC Extension";
+			productName = "IRWatchPOC Extension";
+			productReference = CD1D0E5523DF4C7E0076F07D /* IRWatchPOC Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		CD68BBA823DB45B50083C2AB /* IRRemotePOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD68BBBD23DB45B60083C2AB /* Build configuration list for PBXNativeTarget "IRRemotePOC" */;
+			buildPhases = (
+				CD68BBA523DB45B50083C2AB /* Sources */,
+				CD68BBA623DB45B50083C2AB /* Frameworks */,
+				CD68BBA723DB45B50083C2AB /* Resources */,
+				CD1D0E6B23DF4C7E0076F07D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1D0E6223DF4C7E0076F07D /* PBXTargetDependency */,
+			);
+			name = IRRemotePOC;
+			productName = IRRemotePOC;
+			productReference = CD68BBA923DB45B50083C2AB /* IRRemotePOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD68BBA123DB45B50083C2AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Tilak Kumar";
+				TargetAttributes = {
+					CD1D0E4823DF4C7C0076F07D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					CD1D0E5423DF4C7E0076F07D = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					CD68BBA823DB45B50083C2AB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = CD68BBA423DB45B50083C2AB /* Build configuration list for PBXProject "IRRemotePOC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD68BBA023DB45B50083C2AB;
+			productRefGroup = CD68BBAA23DB45B50083C2AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD68BBA823DB45B50083C2AB /* IRRemotePOC */,
+				CD1D0E4823DF4C7C0076F07D /* IRWatchPOC */,
+				CD1D0E5423DF4C7E0076F07D /* IRWatchPOC Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1D0E4723DF4C7C0076F07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1D0E4F23DF4C7D0076F07D /* Assets.xcassets in Resources */,
+				CD1D0E4D23DF4C7C0076F07D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1D0E5323DF4C7E0076F07D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1D0E5F23DF4C7E0076F07D /* Assets.xcassets in Resources */,
+				CD6BB79D23E33F4C00920137 /* RemoteKeys.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD68BBA723DB45B50083C2AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD68BBB923DB45B60083C2AB /* LaunchScreen.storyboard in Resources */,
+				CD22BBDD23E1F2A0004A3590 /* RemoteKeys.json in Resources */,
+				CD68BBB623DB45B60083C2AB /* Assets.xcassets in Resources */,
+				CD68BBB423DB45B50083C2AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1D0E5123DF4C7E0076F07D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD57349223E52E83006162D9 /* RemoteKeysDataSource.swift in Sources */,
+				CD1D0E5D23DF4C7E0076F07D /* ExtensionDelegate.swift in Sources */,
+				CD57349323E52E92006162D9 /* BLEManager.swift in Sources */,
+				CD1D0E5B23DF4C7E0076F07D /* InterfaceController.swift in Sources */,
+				CD6ECD8623E11B240076879D /* KeysRowController.swift in Sources */,
+				CD57349423E52EA0006162D9 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD68BBA523DB45B50083C2AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD22BBDB23E1F035004A3590 /* RemoteKeysDataSource.swift in Sources */,
+				CD1D0E4423DF316D0076F07D /* MainViewModel.swift in Sources */,
+				CD68BBB123DB45B50083C2AB /* ViewController.swift in Sources */,
+				CD68BBC123DB45FD0083C2AB /* BLEManager.swift in Sources */,
+				CD68BBAD23DB45B50083C2AB /* AppDelegate.swift in Sources */,
+				CD68BBAF23DB45B50083C2AB /* SceneDelegate.swift in Sources */,
+				CD1D0E4623DF37640076F07D /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1D0E5823DF4C7E0076F07D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1D0E5423DF4C7E0076F07D /* IRWatchPOC Extension */;
+			targetProxy = CD1D0E5723DF4C7E0076F07D /* PBXContainerItemProxy */;
+		};
+		CD1D0E6223DF4C7E0076F07D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1D0E4823DF4C7C0076F07D /* IRWatchPOC */;
+			targetProxy = CD1D0E6123DF4C7E0076F07D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1D0E4B23DF4C7C0076F07D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1D0E4C23DF4C7C0076F07D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		CD68BBB223DB45B50083C2AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD68BBB323DB45B50083C2AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD68BBB723DB45B60083C2AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD68BBB823DB45B60083C2AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1D0E6523DF4C7E0076F07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82BDSM6V4Z;
+				INFOPLIST_FILE = "IRWatchPOC Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.IRRemotePOC.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		CD1D0E6623DF4C7E0076F07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82BDSM6V4Z;
+				INFOPLIST_FILE = "IRWatchPOC Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.IRRemotePOC.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		CD1D0E6923DF4C7E0076F07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82BDSM6V4Z;
+				IBSC_MODULE = IRWatchPOC_Extension;
+				INFOPLIST_FILE = IRWatchPOC/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.IRRemotePOC.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		CD1D0E6A23DF4C7E0076F07D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82BDSM6V4Z;
+				IBSC_MODULE = IRWatchPOC_Extension;
+				INFOPLIST_FILE = IRWatchPOC/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.IRRemotePOC.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		CD68BBBB23DB45B60083C2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD68BBBC23DB45B60083C2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD68BBBE23DB45B60083C2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82BDSM6V4Z;
+				INFOPLIST_FILE = IRRemotePOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.IRRemotePOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD68BBBF23DB45B60083C2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 82BDSM6V4Z;
+				INFOPLIST_FILE = IRRemotePOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.IRRemotePOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1D0E6423DF4C7E0076F07D /* Build configuration list for PBXNativeTarget "IRWatchPOC Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1D0E6523DF4C7E0076F07D /* Debug */,
+				CD1D0E6623DF4C7E0076F07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1D0E6823DF4C7E0076F07D /* Build configuration list for PBXNativeTarget "IRWatchPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1D0E6923DF4C7E0076F07D /* Debug */,
+				CD1D0E6A23DF4C7E0076F07D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD68BBA423DB45B50083C2AB /* Build configuration list for PBXProject "IRRemotePOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD68BBBB23DB45B60083C2AB /* Debug */,
+				CD68BBBC23DB45B60083C2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD68BBBD23DB45B60083C2AB /* Build configuration list for PBXNativeTarget "IRRemotePOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD68BBBE23DB45B60083C2AB /* Debug */,
+				CD68BBBF23DB45B60083C2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD68BBA123DB45B50083C2AB /* Project object */;
+}

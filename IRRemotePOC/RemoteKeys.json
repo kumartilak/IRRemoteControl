@@ -1,0 +1,65 @@
+
+{
+  "LG": [
+    {
+      "position":0,
+      "key":"Power",
+      "ascii":"20DF10EF"
+    },
+    {
+      "position":1,
+      "key":"Input",
+      "ascii":"20DFD02F"
+    },
+    {
+      "position":2,
+      "key":"Settings",
+      "ascii":"20DFC23D"
+    },
+    {
+      "position":3,
+      "key":"Volume Up",
+      "ascii":"20DF40BF"
+    },
+    {
+      "position":4,
+      "key":"Volume Down",
+      "ascii":"20DFC03F"
+    },
+    {
+      "position":5,
+      "key":"OK",
+      "ascii":"20DF22DD"
+    },
+    {
+      "position":6,
+      "key":"Left",
+      "ascii":"20DFE01F"
+    },
+    {
+      "position":7,
+      "key":"Up",
+      "ascii":"63D1BF9F"
+    },
+    {
+      "position":8,
+      "key":"Right",
+      "ascii":"8B7AFB3B"
+    },
+    {
+      "position":9,
+      "key":"Down",
+      "ascii":"BD7F17A3"
+    },
+    {
+      "position":10,
+      "key":"Back",
+      "ascii":"20DF14EB"
+    },
+    {
+      "position":11,
+      "key":"Exit",
+      "ascii":"3D90959F"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15702" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15501"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="IRWatchPOC" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Connect" enabled="NO" id="xqx-LZ-f7h">
+                            <connections>
+                                <action selector="connectButtonClicked" destination="AgC-eL-Hgc" id="1o4-q5-Ap0"/>
+                            </connections>
+                        </button>
+                        <table alignment="left" id="omk-3j-TRy">
+                            <items>
+                                <tableRow identifier="RemoteKeys" id="Fv9-pH-Imk" customClass="KeysRowController" customModule="IRWatchPOC_Extension">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="JFU-Wa-vFn">
+                                        <items>
+                                            <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="ITh-PW-PKk">
+                                                <color key="color" red="1" green="0.52120530610000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </separator>
+                                            <group width="1" height="32" alignment="left" spacing="4" id="lLg-am-KjJ">
+                                                <items>
+                                                    <label alignment="left" verticalAlignment="center" text="MEL" textAlignment="justified" id="wki-4D-hPg">
+                                                        <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                                    </label>
+                                                </items>
+                                            </group>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="remoteKeyLabel" destination="wki-4D-hPg" id="ubl-QL-KUD"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="connectButton" destination="xqx-LZ-f7h" id="AA7-am-1LD"/>
+                        <outlet property="table" destination="omk-3j-TRy" id="gz9-VR-2PO"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="31"/>
+        </scene>
+    </scenes>
+</document>
